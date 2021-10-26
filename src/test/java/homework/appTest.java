@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class appTest {
 
-    private String INPUT = "123456";
+    private String INPUT = "1234567";
 
     @Test
     public void testLength() {
@@ -14,7 +14,7 @@ public class appTest {
 
     @Test
     public void testHex() {
-        String expected = "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92";
+        String expected = "8bb0cf6eb9b17d0f7d22b456f121257dc1254e1f01665370476383ea776df414";
         Assert.assertEquals(expected, app.sha256hex(INPUT));
     }
 
